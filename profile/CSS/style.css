@@ -1,0 +1,40 @@
+/*
+Author: Henrikus Wahyu Setyobudiwan
+Type: CSS
+*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+nav {
+	background-color: #FAFAFA;
+	height: 100px;
+	padding: 10px 20px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+	padding-right: 30px;
+	padding-top: 20px;
+	text-transform: uppercase;
+	font-family: 'Spartan';
+	width: 100%
+	position: fixed;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#navbar-logo {
+	padding-left: 20px;
+}
